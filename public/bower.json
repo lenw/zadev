@@ -1,0 +1,27 @@
+{
+  "name": "zadev",
+  "version": "0.0.1",
+  "authors": [
+    "Len Weincier <len@cloudafrica.net>"
+  ],
+  "description": "ZA Developers are us",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.5",
+    "core-ajax": "Polymer/core-ajax#~0.5.5",
+    "core-header-panel": "Polymer/core-header-panel#~0.5.5",
+    "core-toolbar": "Polymer/core-toolbar#~0.5.5",
+    "font-roboto": "Polymer/font-roboto#~0.5.5",
+    "paper-tabs": "Polymer/paper-tabs#~0.5.5",
+    "ajax-form": "~1.5.4",
+    "core-elements": "Polymer/core-elements#~0.5.5"
+  }
+}

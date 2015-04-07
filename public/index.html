@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="components/webcomponentsjs/webcomponents.min.js"></script>
+    <link rel="import" href="imports.html">
+    <link rel="stylesheet" href="app.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body fullbleed layout vertical>
+    <core-drawer-panel id="drawerPanel">
+      <core-header-panel drawer>
+        <core-toolbar drawer>Stuff</core-toolbar>
+        <core-menu>
+          <core-item label="Slack Channel"></core-item>
+          <core-item label="Two"></core-item>
+        </core-menu>
+      </core-header-panel>
+      <core-header-panel main>
+        <core-toolbar>
+          <core-icon-button core-drawer-toggle icon="menu">
+          </core-icon-button>
+
+        <div>ZA Dev</div>
+        </core-toolbar>
+        <div class="content">
+            <slack-signup></slack-signup>
+        </div>
+      </core-header-panel>
+    </core-drawer-panel>
+
+    <script src="app.js"></script>
+  </body>
+</html>

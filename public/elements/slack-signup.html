@@ -1,0 +1,13 @@
+<polymer-element name="slack-signup">
+  <template>
+    <form is="ajax-form" action="/slack-request" method="post">
+      <h1>Request an invite to the ZA Dev Slack channel</h1>
+      <input type=text name="name" placeholder="Name">
+      <input type=text name="email" placeholder="Email">
+      <input type=submit value=Request>
+    </form>
+  </template>
+  <script>
+	Polymer({});
+	</script>
+</polymer-element>
